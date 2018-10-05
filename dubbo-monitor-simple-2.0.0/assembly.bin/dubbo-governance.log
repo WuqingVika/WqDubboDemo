@@ -16,3 +16,5 @@
 2018-08-26 12:24:04,327 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
 2018-10-05 10:06:37,484 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
 2018-10-05 10:06:38,670 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2018-10-05 15:32:38,434 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-10-05 15:32:38,933 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
