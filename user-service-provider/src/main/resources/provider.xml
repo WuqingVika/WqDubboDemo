@@ -20,5 +20,10 @@
 
     <!-- 服务的实现 -->
     <bean id="userServiceImpl01" class="com.wq.dubbo.service.impl.UserServiceImpl"></bean>
-
+<!--添加监控配置 --><!--让它自己发现-->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+    <!--这一种直接写上监控中心的地址-->
+<!--
+    <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>
+-->
 </beans>

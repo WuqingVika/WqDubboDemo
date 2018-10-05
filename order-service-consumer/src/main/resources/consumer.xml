@@ -18,5 +18,10 @@
                      id="userService" >
         <!-- <dubbo:method name="getUserAddressList" timeout="1000"></dubbo:method> -->
     </dubbo:reference>
-
+    <!--到时访问http://localhost:8080/services.html-->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+    <!--这一种直接写上监控中心的地址-->
+    <!--
+        <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>
+    -->
 </beans>
